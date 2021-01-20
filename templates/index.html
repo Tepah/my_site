@@ -6,7 +6,22 @@
 </head>
 <body>
 
+
 <h1>Pete Potipitak</h1>
+<h2>Projects</h2>
+
+{% for project in projects %}
+
+<div>
+    <span class="title">
+        {{ project.name }}
+    </span>
+    <span class="type">
+        {{ project.type }}
+    </span>
+</div>
+
+{% endfor %}
 
 </body>
 </html>
