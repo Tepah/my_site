@@ -21,7 +21,7 @@
 .top_bar {
     font-weight: bold;
     padding-bottom: 1px;
-    padding-left: 200px;
+    padding-left: 180px;
     background-color: #a593f5;
 }
 
@@ -36,5 +36,5 @@
 }
 
 .main_content {
-    padding: 20px;
+    padding: 70px 20px 20px 20px;
 }
