@@ -1,0 +1,27 @@
+.title {
+    font-weight: bold;
+}
+
+nav {
+    padding-top: 1px;
+}
+
+nav > a {
+    color: black;
+    font-size: small;
+}
+
+.top_bar {
+    font-weight: bold;
+    padding-bottom: 12px;
+    padding-left: 100px;
+    background-color: #ddb8f2;
+}
+
+.top_bar h1 {
+    font-size: 80px;
+}
+
+.main_content {
+    padding: 20px;
+}

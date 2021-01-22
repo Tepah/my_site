@@ -17,5 +17,10 @@ def index():
     return flask.render_template('index.html', projects=test_projects)
 
 
+@app.route('/about')
+def about():
+    return flask.render_template('about.html')
+
+
 if __name__ == '__main__':
     app.run()
