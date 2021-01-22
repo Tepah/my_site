@@ -9,6 +9,7 @@ nav {
 nav > a {
     color: black;
     font-size: small;
+    margin-right: 5px;
 }
 
 .top_bar {

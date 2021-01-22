@@ -1,43 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Pete's Website</title>
+{% extends "_layout.html" %}
+{% block main_content %}
+<h2>Projects</h2>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+{% for project in projects %}
 
-    <link rel="stylesheet" href="static/css/site.css" />
-</head>
-<body>
-
-<div class="top_bar">
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-    </nav>
-    <h1>Pete</h1>
+<div>
+    <span class="title">
+        {{ project.name }}
+    </span>
+    <span class="type">
+        {{ project.type }}
+    </span>
 </div>
 
-<div class="main_content">
-    <h2>Projects</h2>
+{% endfor %}
 
-    {% for project in projects %}
-
-    <div>
-        <span class="title">
-            {{ project.name }}
-        </span>
-        <span class="type">
-            {{ project.type }}
-        </span>
-    </div>
-
-    {% endfor %}
-</div>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
-</html>
+{% endblock %}
