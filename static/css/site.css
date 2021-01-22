@@ -2,19 +2,25 @@
     font-weight: bold;
 }
 
-nav {
+.top_bar nav {
     padding-top: 1px;
 }
 
-nav > a {
+.top_bar nav > a {
     color: black;
     font-size: small;
     margin-right: 5px;
+    text-decoration: none;
+}
+
+.top_bar nav > a:hover {
+    color: white;
+
 }
 
 .top_bar {
     font-weight: bold;
-    padding-bottom: 12px;
+    padding-bottom: 1px;
     padding-left: 200px;
     background-color: #a593f5;
 }
@@ -22,6 +28,11 @@ nav > a {
 .top_bar h1 {
     font-size: 55px;
     color: black;
+    cursor: default;
+}
+
+.top_bar h1:hover {
+    color: white;
 }
 
 .main_content {

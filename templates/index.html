@@ -1,18 +1,21 @@
 {% extends "_layout.html" %}
 {% block main_content %}
-<h2>Projects</h2>
 
-{% for project in projects %}
+    <h3>A website to show off my projects and introduce myself.</h3>
 
-<div>
-    <span class="title">
-        {{ project.name }}
-    </span>
-    <span class="type">
-        {{ project.type }}
-    </span>
-</div>
+    <h2>Projects</h2>
 
-{% endfor %}
+    {% for project in projects %}
+
+    <div>
+        <span class="title">
+            {{ project.name }}
+        </span>
+        <span class="type">
+            {{ project.type }}
+        </span>
+    </div>
+
+    {% endfor %}
 
 {% endblock %}
