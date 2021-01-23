@@ -1,3 +1,11 @@
+/*color pallette
+    lavender: #a593f5
+    dark blue: #302A55
+    maroon: #7C2E4E
+    light light purple: #AFB0CD
+    alice blue
+ */
+
 .title {
     font-weight: bold;
 }
@@ -7,7 +15,7 @@
 }
 
 .top_bar nav > a {
-    color: black;
+    color: #302A55;
     font-size: small;
     margin-right: 5px;
     text-decoration: none;
@@ -27,7 +35,7 @@
 
 .top_bar h1 {
     font-size: 55px;
-    color: black;
+    color: #302A55;
     cursor: default;
 }
 
@@ -37,4 +45,8 @@
 
 .main_content {
     padding: 70px 20px 20px 20px;
+}
+
+body {
+    background-color: aliceblue;
 }
