@@ -1,0 +1,22 @@
+{% extends "shared/_layout.html" %}
+{% block main_content %}
+
+    <h3 style="text-align: center; color: grey">
+        A website to show off my projects and introduce myself.</h3>
+
+    <h2>Projects</h2>
+
+    {% for project in projects %}
+
+    <div>
+        <span class="title">
+            {{ project.name }}
+        </span>
+        <span class="type">
+            {{ project.type }}
+        </span>
+    </div>
+
+    {% endfor %}
+
+{% endblock %}
