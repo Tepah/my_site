@@ -1,15 +1,23 @@
 {% extends "shared/_layout.html" %}
 {% block main_content %}
 
-    <h3 style="text-align: center; color: grey">
+    <h3 class="intro">
         A website to show off my projects and introduce myself.</h3>
 
-    <h2>Projects</h2>
+    <div class="divider"></div>
 
-    {% for project in projects %}
-        <div class="container">
-            <div class="row">\
-                <div class="col-md-6">{{ project.name }}</div>
+
+    <h2 class="section_title">My Projects</h2>
+
+    {% for i in range(projects|length) %}
+        <div class="project_grid">
+            <div class="row">
+                {% if i%2==0 and i!=projects|length-1 %}
+                    <div class="col-lg-6">{{ projects[i].name }}</div>
+                    <div class="col-lg-6">{{ projects[i+1].name }}</div>
+                {% elif i==projects|length-1 %}
+                    <div class="col-lg-6">{{ projects[i].name }}</div>
+                {% endif %}
             </div>
         </div>
     {% endfor %}
