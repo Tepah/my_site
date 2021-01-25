@@ -30,6 +30,7 @@
     padding-bottom: 1px;
     padding-left: 30px;
     background-color: #a593f5;
+    box-shadow: 1px 1px #AFB0CD;
 }
 
 .top_bar h1 {
@@ -48,4 +49,8 @@
 
 body {
     background-color: aliceblue;
+}
+
+.row {
+    align-items: center;
 }

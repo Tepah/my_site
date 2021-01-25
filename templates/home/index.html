@@ -7,16 +7,11 @@
     <h2>Projects</h2>
 
     {% for project in projects %}
-
-    <div>
-        <span class="title">
-            {{ project.name }}
-        </span>
-        <span class="type">
-            {{ project.type }}
-        </span>
-    </div>
-
+        <div class="container">
+            <div class="row">\
+                <div class="col-md-6">{{ project.name }}</div>
+            </div>
+        </div>
     {% endfor %}
 
 {% endblock %}

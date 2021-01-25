@@ -4,6 +4,9 @@ app = flask.Flask(__name__)
 
 
 def main():
+    """
+    Registers blueprints and runs the website
+    """
     register_blueprints()
     app.run(debug=True)
 
