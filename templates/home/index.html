@@ -20,7 +20,9 @@
                         <div class="empty_block">{{ projects[i+1].name }}</div>
                     </div>
                 {% elif i==projects|length-1 %}
-                    <div class="col-lg-6">{{ projects[i].name }}</div>
+                    <div class="col-lg-6">
+                        <div class="empty_block">{{ projects[i].name }}</div>
+                    </div>
                 {% endif %}
             </div>
         </div>
