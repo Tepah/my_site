@@ -10,65 +10,32 @@
     font-weight: bold;
 }
 
-.top_bar nav {
-    padding-top: 2px;
-}
-
-.top_bar nav > a {
-    color: #302A55;
-    font-size: small;
-    margin-right: 5px;
-    text-decoration: none;
-}
-
-.top_bar nav > a:hover {
-    color: white;
-}
-
-.top_bar {
-    font-weight: bold;
-    padding-bottom: 1px;
-    padding-left: 30px;
-    background-color: #a593f5;
-    box-shadow: 1px 1px #AFB0CD;
-    position: fixed;
-    width: 100%;
-    transition: top 0.3s;
-}
-
-.top_bar h1 {
-    font-size: 55px;
-    color: #302A55;
-    cursor: default;
-}
-
-.top_bar h1:hover {
-    color: white;
-}
 
 .main_content {
-
+    background-color: aliceblue;
 }
-
-
 
 body {
     background-color: aliceblue;
 }
 
+.mega-card {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-color: #AFB0CD;
+}
+
 .intro {
     text-align: center;
     color: grey;
-    padding-bottom: 50px;
-}
-
-.mega-card {
-    background-color: #AFB0CD;
-    padding: 28rem 1px;
+    padding-bottom: 50vh;
+    padding-top: 45vh;
 }
 
 .divider {
-    max-width : 80%;
+    max-width: 80%;
     padding-top: 50px;
     border: none;
     border-bottom: 5px solid #302A55;
