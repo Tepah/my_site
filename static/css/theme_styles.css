@@ -540,6 +540,7 @@ pre code {
   overflow-y: scroll;
 }
 
+/* controls the size of the content and wide space on the sides.*/
 .container,
 .container-fluid,
 .container-xl,
@@ -547,8 +548,8 @@ pre code {
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -565,12 +566,12 @@ pre code {
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 1200px;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 2300px;
   }
 }
 .row {

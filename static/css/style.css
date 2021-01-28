@@ -36,36 +36,57 @@ body {
 
 .divider {
     max-width: 80%;
-    padding-top: 50px;
+    padding-top: 30px;
     border: none;
     border-bottom: 5px solid #302A55;
     height: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 30px auto;
 }
 
 .section_title {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 15px;
     color: #7C2E4E;
 }
 
+.section_title h2 {
+    font-weight: bold;
+}
+
 .project_grid {
-    padding: 20px 15px;
+    padding: 15px 20px;
     margin-left: auto;
     margin-right: auto;
     background-color: #302A55;
+    border-radius: 2px;
+    border: 2px solid #302A55;
 }
 
+/* Makes an empty square to late put a background in. */
 .empty_block {
-    width: 90%;
-    height: 25rem;
+    position: relative;
+    max-width: 95%;
     border: 1px solid black;
     margin: auto;
+    top: 0;
+    transition: all ease 0.5s;
+    transition-property: top, left, box-shadow;
+}
+
+.empty_block:hover {
+    top: -10px;
+    left: -10px;
+    box-shadow: 5px 8px aliceblue;
+}
+
+.empty_block:after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
 }
 
 .col-lg-6 {
-    padding: 15px 10px;
+    padding: 40px 10px;
     margin: auto;
     text-align: center;
 }
