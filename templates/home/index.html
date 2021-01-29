@@ -17,18 +17,22 @@
                         <div class="col-lg-6">
                             <div>
                                 <a href="/project/{{ projects[i].directory }}">
-                                    <img class="empty-block"
+                                    <!--img class="picture-block"
                                          src="static/img/{{ projects[i].directory }}/index_file.jpg"
-                                         alt="projects[i].name">
+                                         alt="projects[i].name"-->
+                                    <div class="picture-block" style="background-image: url(/static/img/{{ projects[i].directory }}/index_file.jpg)">
+                                    </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div>
                                 <a href="/project/{{ projects[i+1].directory }}">
-                                    <img class="empty-block"
+                                    <!--img class="picture-block"
                                          src="static/img/{{ projects[i+1].directory }}/index_file.jpg"
-                                         alt="projects[i].name">
+                                         alt="projects[i].name"-->
+                                    <div class="picture-block" style="background-image: url(/static/img/{{ projects[i+1].directory }}/index_file.jpg)">
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -36,8 +40,8 @@
                         <div class="col-lg-6">
                             <div>
                                 <a href="/project/{{ projects[i].directory }}">
-                                    <img class="empty-block" src="static/img/{{ projects[i].directory }}/index_file.jpg"
-                                         alt="projects[i].name">
+                                    <div class="picture-block" style="background-image: url(/static/img/{{ projects[i].directory }}/index_file.jpg)">
+                                    </div>
                                 </a>
                             </div>
                         </div>
