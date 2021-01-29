@@ -27,12 +27,31 @@ body {
     background-color: #AFB0CD;
 }
 
-.intro {
-    text-align: center;
-    color: grey;
-    padding-bottom: 50vh;
-    padding-top: 45vh;
+.index-mega {
+    background-image: url(../img/bantersnaps-3mWxKnqET3E-unsplash.jpg);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.intro {
+    position: relative;
+    padding-top: 50vh;
+    padding-bottom: 45vh;
+}
+
+.intro h2 {
+    padding: 20px;
+    background: rgba(175, 176, 205, 0.75);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 -50% 0 0;
+    transform: translate(-50%, -50%);
+}
+
 
 .divider {
     max-width: 80%;
@@ -41,6 +60,7 @@ body {
     border-bottom: 5px solid #302A55;
     height: 5px;
     margin: 30px auto;
+    background-color: aliceblue;
 }
 
 .section_title {
@@ -49,12 +69,8 @@ body {
     color: #7C2E4E;
 }
 
-.section_title h2 {
-    font-weight: bold;
-}
-
 .project_grid {
-    padding: 15px 20px;
+    padding: 15px 17px;
     margin-left: auto;
     margin-right: auto;
     background-color: #302A55;
@@ -90,4 +106,15 @@ body {
     padding: 40px 10px;
     margin: auto;
     text-align: center;
+}
+
+.end_page {
+    width: 100%;
+    padding: 20px 0;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #a593f5;
 }

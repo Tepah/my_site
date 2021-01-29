@@ -1,12 +1,14 @@
 {% extends "shared/_layout.html" %}
 {% block main_content %}
 
-    <div class="mega-card">
-        <h2 class="intro">A website to show off my projects and introduce myself.</h2>
+    <div class="mega-card index-mega">
+        <div class="intro">
+            <h2>A website to show off my projects and introduce myself.</h2>
+        </div>
     </div>
-    <div class="divider"></div>
+    <div class="divider" id="projects"></div>
     <div class="container">
-        <h2 class="section_title" id="projects">My Projects</h2>
+        <h2 class="section_title">My Projects</h2>
 
         <div class="project_grid">
             {% for i in range(projects|length) %}
@@ -27,7 +29,9 @@
             {% endfor %}
         </div>
 
-    <div class="divider"></div>
+        <div class="divider"></div>
+
+        <div class="end_page"></div>
 
     </div>
 
