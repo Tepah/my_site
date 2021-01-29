@@ -15,14 +15,31 @@
                 <div class="row">
                     {% if i%2==0 and i!=projects|length-1 %}
                         <div class="col-lg-6">
-                            <div class="empty_block">{{ projects[i].name }}</div>
+                            <div>
+                                <a href="/project/{{ projects[i].directory }}">
+                                    <img class="empty-block"
+                                         src="static/img/{{ projects[i].directory }}/index_file.jpg"
+                                         alt="projects[i].name">
+                                </a>
+                            </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="empty_block">{{ projects[i+1].name }}</div>
+                            <div>
+                                <a href="/project/{{ projects[i+1].directory }}">
+                                    <img class="empty-block"
+                                         src="static/img/{{ projects[i+1].directory }}/index_file.jpg"
+                                         alt="projects[i].name">
+                                </a>
+                            </div>
                         </div>
                     {% elif i==projects|length-1 %}
                         <div class="col-lg-6">
-                            <div class="empty_block">{{ projects[i].name }}</div>
+                            <div>
+                                <a href="/project/{{ projects[i].directory }}">
+                                    <img class="empty-block" src="static/img/{{ projects[i].directory }}/index_file.jpg"
+                                         alt="projects[i].name">
+                                </a>
+                            </div>
                         </div>
                     {% endif %}
                 </div>
@@ -31,7 +48,7 @@
 
         <div class="divider"></div>
 
-        <div class="end_page"></div>
+        <div class="end-page"></div>
 
     </div>
 

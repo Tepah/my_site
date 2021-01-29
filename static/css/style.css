@@ -44,7 +44,7 @@ body {
 
 .intro h2 {
     padding: 20px;
-    background: rgba(175, 176, 205, 0.75);
+    background: rgba(240, 248, 255, 0.85);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -60,7 +60,7 @@ body {
     border-bottom: 5px solid #302A55;
     height: 5px;
     margin: 30px auto;
-    background-color: aliceblue;
+    background-color: #f0f8ff;
 }
 
 .section_title {
@@ -79,7 +79,7 @@ body {
 }
 
 /* Makes an empty square to late put a background in. */
-.empty_block {
+.empty-block {
     position: relative;
     max-width: 95%;
     border: 1px solid black;
@@ -90,13 +90,13 @@ body {
     transition-property: top, left, box-shadow;
 }
 
-.empty_block:hover {
+.empty-block:hover {
     top: -10px;
     left: -10px;
     box-shadow: 5px 8px aliceblue;
 }
 
-.empty_block:after {
+.empty-block:after {
     content: '';
     display: block;
     padding-bottom: 100%;
@@ -108,7 +108,7 @@ body {
     text-align: center;
 }
 
-.end_page {
+.end-page {
     width: 100%;
     padding: 20px 0;
 }
