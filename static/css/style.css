@@ -28,13 +28,14 @@ body {
 }
 
 .index-mega {
-    background-image: url(../img/bantersnaps-3mWxKnqET3E-unsplash.jpg);
+    background-image: url(../img/megas/index-mega.jpg);
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .intro {
     position: relative;
@@ -79,6 +80,9 @@ body {
     border: 2px solid #302A55;
 }
 
+a {
+    text-decoration: none;
+}
 
 /* Makes images in empty square */
 .picture-block {
@@ -107,29 +111,47 @@ body {
     padding-bottom: 100%;
 }
 
-/*.hover-overlay {
+.picture-block h3 {
+    color: #302A55;
     position: absolute;
-    top: 0;
-    width: 95%;
-    height: 95%;
-    transition: background ease 0.5s;
-    margin: auto;
+    width: 100%;
+    padding-top: 47%;
+    background: rgba(240, 248, 255, 0);
+    text-decoration: none;
+    opacity: 0;
+    transition: all ease 0.5s;
+    transition-property: background, opacity;
 }
 
-.hover-overlay:hover {
-    background: rgba(240, 248, 255, 0.3);
+.picture-block h3:hover {
+    opacity: 1;
+    background: rgba(240, 248, 255, 0.75);
 }
 
-.hover-overlay:after {
+.picture-block h3:after {
     content: '';
     display: block;
-    padding-bottom: 100%;
-}*/
+    padding-bottom: 49%;
+}
 
 .col-lg-6 {
     padding: 20px 15px;
     margin: auto;
     text-align: center;
+}
+
+/* About page */
+.about-mega {
+    background-image: url(../img/megas/about-mega.jpg);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skills {
+    display: inline-block;
 }
 
 .end-page {
