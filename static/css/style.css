@@ -151,8 +151,19 @@ a {
 }
 
 .skills {
-    display: inline-block;
+    padding: 15px 12px;
+    letter-spacing: 0.2rem;
 }
+
+.skills-list {
+    text-align: center;
+}
+
+
+.skills-list ul{
+    list-style-type: none;
+}
+
 
 .end-page {
     width: 100%;
