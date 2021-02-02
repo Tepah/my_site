@@ -152,11 +152,13 @@ a {
 
 .skills {
     padding: 15px 12px;
+    font-size: 1.3rem;
     letter-spacing: 0.2rem;
 }
 
 .skills-list {
     text-align: center;
+    padding: 25px;
 }
 
 
@@ -164,6 +166,58 @@ a {
     list-style-type: none;
 }
 
+.skills-list ul>li {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+/* Used in most pages */
+
+.left-display {
+    padding-top: 15px;
+}
+
+.left-picture {
+    position: relative;
+    left: -1px;
+    height: 50vh;
+    padding: 1rem 0;
+    border: 1px solid black;
+}
+
+.right-text {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    top: 45%;
+    left: -20%;
+    word-wrap: break-word;
+    padding-bottom: 2rem;
+}
+
+.right-display {
+    padding-top: 15px;
+}
+
+.right-picture {
+    position: relative;
+    right: -1px;
+    height: 50vh;
+    border: 1px solid black;
+}
+
+.left-text {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    width: 50%;
+    top: 100%;
+    left: 20%;
+    word-wrap: break-word;
+    padding-bottom: 2rem;
+}
 
 .end-page {
     width: 100%;
