@@ -7,7 +7,7 @@ blueprint = flask.Blueprint('home', __name__, template_folder='templates')
 
 @blueprint.route('/')
 def index():
-    test_projects = project_retriever.get_projects()
+    test_projects = list(project_retriever.get_projects().values())
     return flask.render_template('home/index.html', projects=test_projects)
 
 

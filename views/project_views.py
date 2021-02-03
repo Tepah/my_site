@@ -9,4 +9,10 @@ blueprint = flask.Blueprint('projects', __name__, template_folder='templates')
 # @response(template_file='projects/info.html')
 def project_details(project_name: str):
     """ Starts the layout for the projects in the website. """
-    return "Package details for {}".format(project_name)
+    # return "Package details for {}".format(project_name)
+    all_projects = project_retriever.get_projects()
+
+    if project_name in all_projects.keys():
+        return flask.render_template('projects/info.html', project=all_projects[project_name])
+    else:
+        return flask.render_template('projects/error.html', project=project_name)

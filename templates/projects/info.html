@@ -1,22 +1,51 @@
 {% extends "shared/_layout.html" %}
+{% block title %}About Pete Potipitak{% endblock %}
+
 {% block main_content %}
 
-    <h3 style="text-align: center; color: grey">
-        A website to show off my projects and introduce myself.</h3>
+    <div class="mega-card about-mega">
+        <div class="intro">
+            <h2>{{ project.name }}</h2>
+        </div>
+    </div>
+    <div class="divider"></div>
 
-    <h2>Projects</h2>
-
-    {% for project in projects %}
-
-    <div>
-        <span class="title">
-            {{ project.name }}
-        </span>
-        <span class="type">
-            {{ project.type }}
-        </span>
+    <div class="left-display">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="left-picture" style="background-image: url(/static/img/about/picture1.jpg)"></div>
+            </div>
+            <div class="col-md-5">
+                <div class="right-text">My name is Pete Potipitak. I'm Thai and I live in Southern California. I like
+                    coding and sushi.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right-display">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="left-text">I am words. words that have wisdom and stuff. i dunno.</div>
+            </div>
+            <div class="col-md-7">
+                <div class="right-picture"></div>
+            </div>
+        </div>
+    </div>
+    <div class="left-display">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="left-picture" style="background-image: url(/static/img/about/picture1.jpg)"></div>
+            </div>
+            <div class="col-md-5">
+                <div class="right-text">My name is Pete Potipitak. I'm Thai and I live in Southern California. I like
+                    coding and sushi.
+                </div>
+            </div>
+        </div>
     </div>
 
-    {% endfor %}
 
+    <div class="divider"></div>
+    <div class="end-page"></div>
 {% endblock %}
