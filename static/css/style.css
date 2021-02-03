@@ -171,6 +171,17 @@ a {
     padding-bottom: 18px;
 }
 
+/* Error page */
+.error-mega {
+    background-image: url(../img/megas/error-mega.jpg);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+
 /* Used in most pages */
 
 .left-display {
@@ -221,6 +232,7 @@ a {
     width: 50%;
     word-wrap: break-word;
     padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .end-page {

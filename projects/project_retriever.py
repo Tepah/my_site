@@ -5,5 +5,5 @@ def get_projects():
         'stat_tracker': {'name': 'Stat Tracker', 'description': 'A stat logger', 'type': 'Data logger',
                          'directory': 'stat_tracker'},
         'pete-bot': {'name': 'Pete-bot[WIP]', 'description': 'A work in progress discord bot', 'type': 'Discord Bot',
-                     'directory': 'pete-bot'}
+                     'directory': 'pete-bot'},
     }
