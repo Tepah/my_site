@@ -182,7 +182,9 @@ a {
     left: -1px;
     height: 50vh;
     padding: 1rem 0;
-    border: 1px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .right-text {
@@ -204,17 +206,19 @@ a {
     position: relative;
     right: -1px;
     height: 50vh;
-    border: 1px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .left-text {
     position: relative;
     text-align: center;
-    margin: auto;
-    border: 1px solid black;
+    margin-left: 48%;
+    margin-top: -5%;
+    margin-bottom: 10%;
+    top: 44%;
     width: 50%;
-    top: 100%;
-    left: 20%;
     word-wrap: break-word;
     padding-bottom: 2rem;
 }
