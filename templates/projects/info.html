@@ -3,7 +3,7 @@
 
 {% block main_content %}
 
-    <div class="mega-card about-mega">
+    <div class="mega-card project-mega" style="background-image: url(../static/img/{{ project.directory }}/mega.jpg)">
         <div class="intro">
             <h2>{{ project.name }}</h2>
         </div>
@@ -13,11 +13,10 @@
     <div class="left-display">
         <div class="row">
             <div class="col-md-7">
-                <div class="left-picture" style="background-image: url(/static/img/about/picture1.jpg)"></div>
+                <div class="left-picture" style="background-image: url(/static/img/{{ project.directory }}/picture1.jpg)"></div>
             </div>
             <div class="col-md-5">
-                <div class="right-text">My name is Pete Potipitak. I'm Thai and I live in Southern California. I like
-                    coding and sushi.
+                <div class="right-text">{{ project.description_1 }}
                 </div>
             </div>
         </div>
@@ -25,21 +24,20 @@
     <div class="right-display">
         <div class="row">
             <div class="col-md-5">
-                <div class="left-text">I am words. words that have wisdom and stuff. i dunno.</div>
+                <div class="left-text">{{ project.description_2 }}</div>
             </div>
             <div class="col-md-7">
-                <div class="right-picture"></div>
+                <div class="right-picture" style="background-image: url(/static/img/{{ project.directory }}/picture2.jpg)"></div>
             </div>
         </div>
     </div>
     <div class="left-display">
         <div class="row">
             <div class="col-md-7">
-                <div class="left-picture" style="background-image: url(/static/img/about/picture1.jpg)"></div>
+                <div class="left-picture" style="background-image: url(/static/img/{{ project.directory }}/picture3.jpg)"></div>
             </div>
             <div class="col-md-5">
-                <div class="right-text">My name is Pete Potipitak. I'm Thai and I live in Southern California. I like
-                    coding and sushi.
+                <div class="right-text">{{ project.description_3 }}
                 </div>
             </div>
         </div>

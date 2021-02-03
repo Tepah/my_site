@@ -180,6 +180,14 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Project page */
+.project-mega {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Used in most pages */
