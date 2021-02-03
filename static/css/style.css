@@ -199,7 +199,7 @@ a {
 .left-picture {
     position: relative;
     left: -1px;
-    height: 50vh;
+    height: 70vh;
     padding: 1rem 0;
     background-position: center;
     background-repeat: no-repeat;
@@ -224,7 +224,7 @@ a {
 .right-picture {
     position: relative;
     right: -1px;
-    height: 50vh;
+    height: 70vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
