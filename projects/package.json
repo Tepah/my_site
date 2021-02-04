@@ -1,0 +1,29 @@
+{
+  "space_pew": {
+    "name": "Space Pew",
+    "description": "A game made with pygame!",
+    "type": "Game",
+    "directory": "space_pew",
+    "description_1": "A space shooter game like the days of old. Has levels, score system, and bullet upgrades.",
+    "description_2": "Control your ship with WASD and K to shoot!",
+    "description_3": "Made with Pygame."
+  },
+  "stat_tracker": {
+    "name": "Stat Tracker",
+    "description": "A stat logger",
+    "type": "Data logger",
+    "directory": "stat_tracker",
+    "description_1": "A stat tracker made to record my scores on aim trainers.",
+    "description_2": "Creates files and displays a graph after use.",
+    "description_3": "Made with "
+  },
+  "pete-bot": {
+    "name": "Pete-bot[WIP]",
+    "description": "A work in progress discord bot",
+    "type": "Discord Bot",
+    "directory": "pete-bot",
+    "description_1": "I'm getting itchy",
+    "description_2": "I have a tuna salad sandwich ready",
+    "description_3": "Does anybody have any pickles?"
+  }
+}
