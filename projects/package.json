@@ -6,7 +6,7 @@
     "directory": "space_pew",
     "description_1": "A space shooter game like the days of old. Has levels, score system, and bullet upgrades.",
     "description_2": "Control your ship with WASD and K to shoot!",
-    "description_3": "Made with Pygame."
+    "description_3": "Choose your difficulty! Made with Pygame."
   },
   "stat_tracker": {
     "name": "Stat Tracker",
