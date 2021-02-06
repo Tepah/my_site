@@ -15,15 +15,15 @@
     "directory": "stat_tracker",
     "description_1": "A stat tracker made to record my scores on aim trainers.",
     "description_2": "Creates files and displays a graph after use.",
-    "description_3": "Made with "
+    "description_3": "Records scores based on dates and puts them into a json. Made with matplotlib."
   },
   "pete-bot": {
     "name": "Pete-bot[WIP]",
     "description": "A work in progress discord bot",
     "type": "Discord Bot",
     "directory": "pete-bot",
-    "description_1": "I'm getting itchy",
-    "description_2": "I have a tuna salad sandwich ready",
-    "description_3": "Does anybody have any pickles?"
+    "description_1": "A discord bot used for random social stuff.",
+    "description_2": "I'm not really sure what I should do with it currently.",
+    "description_3": "Made with discord developer utilities."
   }
 }
