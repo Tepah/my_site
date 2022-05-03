@@ -1,9 +1,10 @@
 # my_site
-My Website I use to show off my projects.
+My portfolio I use to show off my projects @ https://www.potipitak.com
 
 # Includes
-Python's Flask framework
-HTML, CSS, Bootstrap
-Usage of JSON Read/Write to create a dynamic pages with added jsons.
-Pictures of other projects made
-
+<ul>
+  <li>Python's Flask framework</li>
+  <li>HTML, CSS, Bootstrap</li>
+  <li>Usage of JSON Read/Write to create a dynamic pages with added jsons.</li>
+  <li>Pictures of other projects made</li>
+</ul
